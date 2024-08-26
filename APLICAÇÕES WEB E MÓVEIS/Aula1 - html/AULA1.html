@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 1</title>
+</head>
+<body>
+    <h1>Mais formulários</h1>
+    <form action="" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" size="50" maxlength="50">
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" size="8" maxlength="8">
+        <br><br>
+
+        <fieldset>
+            <label for="linguagem">Linguagem que tem interesse:</label><br>
+            <input type="checkbox" name="linguagem[]" value="c++">C++
+            <input type="checkbox" name="linguagem[]" value="Delphi">Delphi
+            <input type="checkbox" name="linguagem[]" value="php">PHP
+        </fieldset>
+        <br><br>
+
+        <label for="linguagemEscolhida">Linguagem que irá cursar agora:</label>
+        <br>
+        <input type="radio" name="curso[]" value="c++">C++
+        <input type="radio" name="curso[]" value="Delphi">Delphi
+        <input type="radio" name="curso[]" value="php">PHP
+        <br><br>
+
+        <select name="escola">
+            <option value="C++">C++</option>
+            <option value="Delphi">Delphi</option>
+            <option value="php">PHP</option>
+        </select>
+        <br><br>
+        <input name="submit" type="submit" id="submit" value="Enviar">
+    </form>
+
+    <br><hr>
+    <h1>Acessibilidade</h1>
+    <table border="1" width="50%" sumary="Tabela com preços em reais de ameixa e pera">
+        <caption>Preços em reais de frutas</caption>
+
+        <td colspan="3">São Paulo</td>
+        <tr>
+            <td></td>
+            <th>Ameixa</th>
+            <th>Pera</th>
+        </tr>
+        <tr>
+            <th>Atacado</th>
+            <td>1,00</td>
+            <td>1,50</td>
+        </tr>
+        <tr>
+            <th>Varejo</th>
+            <td>2,00</td>
+            <td>2,50</td>
+        </tr>
+
+        <td colspan="3">Rio de Janeiro</td>
+        <tr>
+            <td></td>
+            <th>Ameixa</th>
+            <th>Pera</th>
+        </tr>
+        <tr>
+            <th>Atacado</th>
+            <td>0,50</td>
+            <td>1,30</td>
+        </tr>
+        <tr>
+            <th>Varejo</th>
+            <td>1,00</td>
+            <td>0,50</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+
+    <h1>Tabela com mesclagem</h1>
+    <table border="1">
+        <tr>
+            <td colspan="2">Linha 1 - Colunas 1 e 2</td>
+            <td rowspan="2">Coluna 3 - Linhas 1 e 2</td>
+        </tr>
+        <tr>
+            <td>Linha 2 - Coluna 1</td>
+            <td>Linha 2 - Coluna 2</td>
+        </tr>
+
+        <tr>
+            <td>Linha 3 - Coluna 1</td>
+            <td>Linha 3 - Coluna 2</td>
+            <td>Linha 3 - Coluna 3</td>
+        </tr>
+
+    </table>
+
+    <br>
+    <hr>
+    <h1>Formulários</h1>
+    <form>
+        <table>
+            <tr>
+                <th><label for="nome">Nome:</label></th>
+                <td><input type="text" name="nome" id"nome"></td>
+            </tr>
+
+            <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="email" name="email" id"email"></td>
+            </tr>
+
+            <tr>
+                <th><label for="msg">Mensagem:</label></th>
+                <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem aqui...</textarea></td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+    <hr>
+    <h1>Tabela</h1>
+    <table width="50%" border = "2px">
+        <tr>
+            <th>Aluno</th>
+            <th>RU</th>
+        </tr>
+        <tr>
+            <td>Lorena Aparecida</td>
+            <td>1546465</td>
+        </tr>
+        <tr>
+            <td>Ana Silva</td>
+            <td>5454654</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <a href="https://www.google.com">Google</a>
+    <br>
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3gCisakN_Sy_O4Wa6TvjYayV-nsFaBW9bA&s" alt="Logotipo Google" title="Logotipo do Google" width="30%">
+
+    <br>
+    <hr>
+    <h1>Olá mundo!</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</4>
+    <h5>Título 5</5>
+    <h6>Título 6</6> 
+
+    <hr>
+
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <hr>
+
+    <h2>Lista ordenada</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+</body>
+</html>
